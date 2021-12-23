@@ -1,0 +1,34 @@
+
+.message {
+    z-index: -1;
+    left: -100%;
+    transition: all .1s ease;
+    visibility: hidden;
+}
+
+.table {
+    width: 100%;
+}
+.table thead {
+    background-color: rgb(6, 85, 105);
+}
+.table tr th:nth-child(1), 
+.table tr td:nth-child(1) 
+{
+    background-color: rgb(6, 85, 105);
+    color: white;
+}
+
+#emp_update,
+#emp_delete
+{
+    cursor: pointer;
+}
+#emp_update {
+    color: darkcyan;
+}
+#emp_delete {
+    color: red;
+}
+
+
